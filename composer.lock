@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f02e60cb7e8774393a4e057e8e9ba14c",
+    "content-hash": "e664920feb78a7f332c4aef2827383c1",
     "packages": [
         {
             "name": "snlprjpti/core",
