@@ -1,0 +1,63 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "f02e60cb7e8774393a4e057e8e9ba14c",
+    "packages": [
+        {
+            "name": "snlprjpti/core",
+            "version": "v18",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/snlprjti/core.git",
+                "reference": "ce08b5f2d8293ced319c2ff49c06d63f1a9fdc8a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/snlprjti/core/zipball/ce08b5f2d8293ced319c2ff49c06d63f1a9fdc8a",
+                "reference": "ce08b5f2d8293ced319c2ff49c06d63f1a9fdc8a",
+                "shasum": ""
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Modules\\Core\\Providers\\CoreServiceProvider"
+                    ],
+                    "aliases": []
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Modules\\Core\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sunil Prajapati",
+                    "email": "snlprjpti@gmail.com"
+                }
+            ],
+            "support": {
+                "issues": "https://github.com/snlprjti/core/issues",
+                "source": "https://github.com/snlprjti/core/tree/v18"
+            },
+            "time": "2021-12-16T15:34:30+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.1.0"
+}

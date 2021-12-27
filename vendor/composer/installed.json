@@ -1,0 +1,53 @@
+{
+    "packages": [
+        {
+            "name": "snlprjpti/core",
+            "version": "v18",
+            "version_normalized": "18.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/snlprjti/core.git",
+                "reference": "ce08b5f2d8293ced319c2ff49c06d63f1a9fdc8a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/snlprjti/core/zipball/ce08b5f2d8293ced319c2ff49c06d63f1a9fdc8a",
+                "reference": "ce08b5f2d8293ced319c2ff49c06d63f1a9fdc8a",
+                "shasum": ""
+            },
+            "time": "2021-12-16T15:34:30+00:00",
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Modules\\Core\\Providers\\CoreServiceProvider"
+                    ],
+                    "aliases": []
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Modules\\Core\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sunil Prajapati",
+                    "email": "snlprjpti@gmail.com"
+                }
+            ],
+            "support": {
+                "issues": "https://github.com/snlprjti/core/issues",
+                "source": "https://github.com/snlprjti/core/tree/v18"
+            },
+            "install-path": "../snlprjpti/core"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}

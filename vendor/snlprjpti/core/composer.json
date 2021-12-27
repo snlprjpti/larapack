@@ -1,0 +1,25 @@
+{
+    "name": "snlprjpti/core",
+    "description": "",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sunil Prajapati",
+            "email": "snlprjpti@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Core\\Providers\\CoreServiceProvider"
+            ],
+            "aliases": {
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Core\\": ""
+        }
+    }
+}

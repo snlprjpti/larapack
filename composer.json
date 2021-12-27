@@ -1,0 +1,21 @@
+{
+    "name": "sunil/ecomm",
+    "description": "a ecommerce packages",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Sunil\\Ecomm\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sunil Prajapati",
+            "email": "sunil.prajapati@hazesoft.co"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "snlprjpti/core": "^18.0"
+    }
+}
